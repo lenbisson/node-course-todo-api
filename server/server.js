@@ -25,6 +25,8 @@ app.post('/todos', (req, res) => {
   });
 });
 
+module.exports = {app};
+
 // var newUser = new User({
 //   email: 'len@test.com'
 // });
